@@ -1,60 +1,143 @@
 # Semi-Autonomous Electric Wheelchair
-**Role:** Lead Software Developer / Embedded Systems Engineer  
----
 
-## Project Overview
-Developed an end-to-end autonomy system for a **semi-autonomous electric wheelchair** that combines human joystick control with AI-driven navigation and obstacle avoidance. The system integrates **multimodal sensors** for real-time state estimation, motion planning, and trajectory execution, enabling safe operation in dynamic indoor environments.  
-
-This project bridges human input with intelligent autonomy, demonstrating practical implementation of **AI, controls, and navigation** on embedded robotic platforms.
----
-
-## Key Responsibilities & Achievements
-- Built **ROS2-based autonomy software** in **Python/C++** for **NVIDIA Jetson** and **Arduino**, connecting perception, navigation, and control modules.  
-- Integrated **LiDAR (2D/3D), IMU, and ultrasonic sensors** using **sensor fusion** and **Kalman filtering** to enhance **localization stability** and **collision prediction**.  
-- Implemented **PID control** and closed-loop navigation algorithms to generate **smooth, real-time trajectories**.  
-- Developed **end-to-end learning pipelines** for navigation and obstacle avoidance.  
-- Conducted **hardware-in-the-loop (HIL) testing** with **PyTest** and **real-time debugging tools** to validate software safety, reliability, and performance on edge devices.  
-- Optimized ML and control algorithms for **low-latency execution** on embedded platforms.  
-- Documented system architecture, software workflows, and integration protocols for reproducibility and maintainability.  
----
-
-## Technologies & Frameworks
-- **Programming Languages:** Python, C++  
-- **Embedded Platforms:** NVIDIA Jetson TX2, Arduino, Linux  
-- **Frameworks & Tools:** ROS1/ROS2, PyTorch, TensorFlow, Git, PyTest, MATLAB/Simulink  
-- **Sensors & Actuators:** 2D/3D LiDAR, IMU, ultrasonic sensors, motors, actuators  
-- **Key Concepts:** Navigation, Controls, PID & Optimal Control, Sensor Fusion, Kalman Filtering, Multimodal Perception, End-to-End Learning, Reinforcement Learning Concepts, Edge Compute  
+**Role:** Robotics & Mechatronics Engineer / Robotics Software Developer
 
 ---
 
-## Outcome & Recognition
-- Demonstrated **semi-autonomous navigation** with smooth obstacle avoidance and precise trajectory execution.  
-- Optimized embedded software to meet **strict real-time performance requirements**.  
-- Project recognized with **Best Research Presentation Award** at Widener University’s Undergraduate Research Symposium.  
-- Reinforced expertise in **AI-driven robotics, autonomous navigation, sensor fusion, embedded systems, and control algorithms**, directly applicable to real-world robotic applications.  
+# Project Overview
+
+Developed an end-to-end autonomy system for a **semi-autonomous electric wheelchair** that combines human joystick control with AI-driven navigation and obstacle avoidance.
+
+The system integrates **multimodal sensors** to perform real-time state estimation, perception, motion planning, and trajectory execution. The platform enables safe navigation in dynamic indoor environments while maintaining human supervisory control.
+
+This project demonstrates practical implementation of **robotics autonomy, control systems, embedded computing, and AI-driven navigation** on a real robotic platform.
 
 ---
 
-## Visual Representation
+# Key Responsibilities & Achievements
 
-### Ultrasonic Sensor
-![LiDAR visualization](images/UltrasonicSensor.jpg)
+## Robotics Software & System Architecture
 
-### 2D Lidar Sensor
-![LiDAR visualization](images/2DLidarSensor.jpg)
+- Developed **ROS2-based autonomy software** in **C++ and Python** running on an **NVIDIA Jetson TX2** with embedded microcontrollers (**Arduino**) for low-level hardware control.
+- Designed modular software architecture connecting **perception, localization, planning, and control subsystems**.
 
-### 3D Lidar Sensor
-![LiDAR visualization](images/3DLidarsensor.jpg)
+## Sensor Integration & Perception
 
-### 3D Simulation of Lidar Sensor Data
-![LiDAR visualization](images/SimulationofLIDARsensorsonROS(LinuxUbuntu).jpg)
+- Integrated **2D/3D LiDAR, IMU, and ultrasonic sensors** to collect and process real-time environmental data.
+- Implemented **sensor fusion pipelines** using **Kalman filtering** to improve localization stability and obstacle prediction accuracy.
+- Processed LiDAR point-cloud and sensor data streams for **real-time obstacle detection and environment mapping**.
 
-### Graphic Representation of Lidar Sensor Data
-![LiDAR visualization](images/GraphicVisualizatioofLidarsdataonROS(Linuxubuntu).jpg)
+## Autonomous Navigation & Control
 
-### Electric Wheelchair (Before mounting 3D Lidar sensors)
-![LiDAR visualization](images/Semi-AutonomousWheelchair.jpg)
+- Implemented **PID-based closed-loop motor control** to generate stable and smooth motion trajectories.
+- Developed navigation logic enabling **obstacle avoidance and semi-autonomous trajectory execution**.
+- Designed control algorithms to maintain **real-time responsiveness and system stability** under dynamic conditions.
 
+## Embedded Systems & Edge Computing
 
-## Project Status
-This project was completed as part of research work at Widener University. The code is not public due to hardware dependencies.
+- Deployed autonomy algorithms on **embedded Linux platforms** optimized for **low-latency real-time execution**.
+- Integrated high-level autonomy software with **embedded microcontrollers** for motor control and sensor acquisition.
+
+## Testing, Debugging & Validation
+
+- Conducted **Hardware-in-the-Loop (HIL) testing** using **PyTest and real-time debugging tools**.
+- Performed extensive **field testing and iterative system tuning** to improve reliability and navigation accuracy.
+- Diagnosed and resolved issues related to **sensor noise, latency, actuator response, and control instability**.
+
+## Mechanical Design & System Integration
+
+- Designed and fabricated custom components using **CAD, 3D printing, and Finite Element Analysis (FEA)**.
+- Ensured mechanical robustness and proper sensor mounting for reliable data acquisition and system stability.
+
+## Documentation & Collaboration
+
+- Authored detailed **engineering documentation** describing system architecture, data pipelines, integration procedures, and testing protocols.
+
+---
+
+# Technologies & Frameworks
+
+**Programming Languages**
+
+- Python
+- C++
+
+**Robotics & Software Frameworks**
+
+- ROS1 / ROS2
+- PyTorch
+- TensorFlow
+- PyTest
+- MATLAB / Simulink
+- Git
+
+**Embedded Platforms**
+
+- NVIDIA Jetson TX2
+- Arduino
+- Linux (Ubuntu)
+
+**Sensors & Hardware**
+
+- 2D LiDAR
+- 3D LiDAR
+- IMU
+- Ultrasonic Sensors
+- Motors & Actuators
+
+**Core Robotics Concepts**
+
+- Autonomous Navigation
+- Sensor Fusion
+- Kalman Filtering
+- PID Control
+- Motion Planning
+- Multimodal Perception
+- Embedded Robotics Systems
+- Edge Computing
+
+---
+
+# Outcomes & Recognition
+
+- Successfully demonstrated **semi-autonomous navigation with real-time obstacle avoidance**.
+- Achieved **stable trajectory execution and responsive control performance** on embedded hardware.
+- Optimized perception and control algorithms to meet **strict real-time system constraints**.
+- Awarded **Best Research Presentation** at the **Widener University Undergraduate Research Symposium**.
+
+This project reinforced expertise in:
+
+- Autonomous robotic systems
+- Embedded robotics software
+- Perception and sensor fusion
+- Real-time control systems
+- Hardware–software system integration
+
+---
+
+# Visual Demonstrations
+
+## Ultrasonic Sensor
+![Ultrasonic Sensor](images/UltrasonicSensor.jpg)
+
+## 2D LiDAR Sensor
+![2D LiDAR](images/2DLidarSensor.jpg)
+
+## 3D LiDAR Sensor
+![3D LiDAR](images/3DLidarsensor.jpg)
+
+## LiDAR Simulation in ROS
+![LiDAR Simulation](images/SimulationofLIDARsensorsonROS(LinuxUbuntu).jpg)
+
+## LiDAR Data Visualization in ROS
+![LiDAR Visualization](images/GraphicVisualizatioofLidarsdataonROS(Linuxubuntu).jpg)
+
+## Electric Wheelchair Platform
+![Wheelchair Platform](images/Semi-AutonomousWheelchair.jpg)
+
+---
+
+# Project Status
+
+This project was developed as part of robotics research at Widener University.  
+Due to hardware dependencies and research constraints, the full source code is not publicly available.
