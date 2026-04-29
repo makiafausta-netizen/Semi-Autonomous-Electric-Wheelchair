@@ -18,7 +18,7 @@ This project demonstrates practical implementation of **robotics autonomy, contr
 
 ## Robotics Software & System Architecture
 
-- Developed **ROS2-based autonomy software** in **C++ and Python** running on an **NVIDIA Jetson TX2** with embedded microcontrollers (**Arduino**) for low-level hardware control.
+- Developed **ROS2-based autonomy software** in **C++ and Python** running on an **NVIDIA Jetson Orin Nano** with embedded microcontrollers (**Arduino**) for low-level hardware control.
 - Designed modular software architecture connecting **perception, localization, planning, and control subsystems**.
 
 ## Sensor Integration & Perception
@@ -40,7 +40,8 @@ This project demonstrates practical implementation of **robotics autonomy, contr
 
 ## Testing, Debugging & Validation
 
-- Conducted **Hardware-in-the-Loop (HIL) testing** using **PyTest and real-time debugging tools**.
+- Conducted **Simulations** using bother **MATLAB/SIMULINK** and **RVIZ** on ROS
+- Tested **Software** and **Hardware** and carried out **real-time debugging**.
 - Performed extensive **field testing and iterative system tuning** to improve reliability and navigation accuracy.
 - Diagnosed and resolved issues related to **sensor noise, latency, actuator response, and control instability**.
 
@@ -65,9 +66,7 @@ This project demonstrates practical implementation of **robotics autonomy, contr
 **Robotics & Software Frameworks**
 
 - ROS1 / ROS2
-- PyTorch
 - TensorFlow
-- PyTest
 - MATLAB / Simulink
 - Git
 
@@ -115,25 +114,6 @@ This project reinforced expertise in:
 
 ---
 
-# Visual Demonstrations
-
-## Ultrasonic Sensor
-![Ultrasonic Sensor](images/UltrasonicSensor.jpg)
-
-## 2D LiDAR Sensor
-![2D LiDAR](images/2DLidarSensor.jpg)
-
-## 3D LiDAR Sensor
-![3D LiDAR](images/3DLidarsensor.jpg)
-
-## LiDAR Simulation in ROS
-![LiDAR Simulation](images/SimulationofLIDARsensorsonROS(LinuxUbuntu).jpg)
-
-## LiDAR Data Visualization in ROS
-![LiDAR Visualization](images/GraphicVisualizatioofLidarsdataonROS(Linuxubuntu).jpg)
-
-## Electric Wheelchair Platform
-![Wheelchair Platform](images/Semi-AutonomousWheelchair.jpg)
 
 ---
 
