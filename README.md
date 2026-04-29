@@ -50,6 +50,10 @@ This project demonstrates practical implementation of **robotics autonomy, contr
 - Designed and fabricated custom components using **CAD, 3D printing, and Finite Element Analysis (FEA)**.
 - Ensured mechanical robustness and proper sensor mounting for reliable data acquisition and system stability.
 
+## Electrical System & Power Architecture
+- Designed and wired the full electrical system, powering all onboard components,including the ESP32, Arduino, NVIDIA Jetson, and sensor suite, directly from the wheelchair's existing battery system. 
+- Eliminated the need for external power sources by engineering a unified power distribution architecture integrated into the platform itself.
+
 ## Documentation & Collaboration
 
 - Authored detailed **engineering documentation** describing system architecture, data pipelines, integration procedures, and testing protocols.
